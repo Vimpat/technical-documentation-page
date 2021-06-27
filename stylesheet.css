@@ -82,3 +82,21 @@ header {
 code {
 	display: block;
 }
+
+@media screen and (max-width: 600px) {
+
+	#navbar {
+		width: 100%;
+		height: auto;
+		position: sticky;
+	}
+
+	#main-doc {
+		padding: 5%;
+	}
+
+	.nav-link {
+		display: block;
+	}
+
+}
